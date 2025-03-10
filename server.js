@@ -14,7 +14,7 @@ const PORT = 5000;
 
 app.use(express.json());
 
-router.get('/', (req, res) => {
+router.get('/data', (req, res) => {
     res.send("user found");
 });
 
